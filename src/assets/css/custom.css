@@ -1,0 +1,30 @@
+.primary-btn {
+    background-color: var(--primary);
+    color: var(--white);
+    font-size: 12.8px;
+    min-width: 20rem;
+    padding: 12px;
+    border: 0;
+    border-radius: 5px;
+}
+
+.accent-btn {
+    color: var(--primary);
+    background-color: var(--white);
+    font-size: 12.8px;
+    min-width: 20rem;
+    padding: 12px;
+    border: 0;
+    border-radius: 5px;
+}
+
+
+
+
+/* Media Queries  */
+@media (max-width: 990px) {
+    .primary-btn, .accent-btn {
+        min-width: auto;
+        padding: 12px 45px;
+    }
+}
